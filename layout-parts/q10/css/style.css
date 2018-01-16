@@ -2,4 +2,154 @@
 
 /* 回答はここに書いてね */
 
+.inquiry {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ecf1f2;
+}
+
+.inquiry__title {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.inquiry__title:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.inquiry__title__txt {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ecf1f2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.inquiry__main {
+  float: left;
+  width: 300px;
+}
+
+.inquiry__main__items {
+  margin-bottom: 20px;
+}
+
+.inquiry__main__items > li:not(:first-child) {
+  margin-top: 20px;
+}
+
+.inquiry__main__items__title {
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.inquiry__main__items__title .is-required {
+  color: #f00;
+}
+
+.inquiry__main__items__content {
+  float: right;
+  width: 180px;
+}
+
+.inquiry__input--init {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.inquiry__input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.inquiry__radio {
+  cursor: pointer;
+}
+
+.inquiry__radio__btn {
+  display: none;
+}
+
+.inquiry__radio__txt {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.inquiry__radio__txt:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.inquiry__radio__btn:checked + .inquiry__radio__txt:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00bcd4;
+  border-radius: 50%;
+  content: '';
+}
+
+.inquiry__main__bottom {
+  text-align: right;
+}
+
+.inquiry__main__bottom__btn {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  font: 16px;
+  line-height: 26px;
+}
+
+.inquiry__side {
+  float: right;
+  width: 380px;
+}
+
+.inquiry__side__txt {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
 /* 回答はここに書いてね */

@@ -2,4 +2,32 @@
 
 /* 回答はここに書いてね */
 
+.contents {
+  width: 100%;
+  border: 1px solid #dedede;
+  table-layout: fixed;
+}
+
+.contents th {
+  padding: 10px;
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  vertical-align: middle;
+}
+
+.contents td {
+  padding: 10px;
+  border-left: 1px solid #dedede;
+  line-height: 22px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contents > thead th:not(:first-child) { border-left: 1px solid #dedede; }
+.contents > tbody > tr { border-top: 1px solid #dedede; }
+.contents > tbody > tr:nth-child(even) { background-color: #ECF1F2; }
+.contents > tbody > tr:last-child { border-top: 2px dashed #000; }
+
 /* 回答はここに書いてね */

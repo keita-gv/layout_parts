@@ -1,5 +1,164 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.contents {
+  font-size: 0 ;
+  text-align: center;
+}
 
+.contents__box {
+  display: inline-block;
+  margin: 10px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.contents__init {
+  background: none;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.contents__txt {
+  padding: 5px;
+  border: 1px solid #00bcd4;
+  border-radius: 5px;
+}
+
+.contents__txt::-webkit-input-placeholder {
+  color: #00bcd4;
+}
+
+.contents__txt:focus{
+  box-shadow: 0 0 7px #00bcd4;
+}
+
+.contents__textarea {
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #00bcd4;
+  border-radius: 5px;
+  resize: none;
+}
+
+.contents__radio {
+  cursor: pointer;
+}
+
+.contents__radio__btn {
+  display: none;
+}
+
+.contents__radio__txt {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.contents__radio__txt::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.contents__radio__btn:checked + .contents__radio__txt:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00bcd4;
+  border-radius: 50%;
+  content: '';
+}
+
+.contents__check {
+  cursor: pointer;
+}
+
+.contents__check__btn {
+  display: none;
+}
+
+.contents__check__txt {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 22px;
+}
+
+.contents__check__txt:before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.contents__check__btn:checked + .contents__check__txt:after {
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 3px;
+  width: 13px;
+  height: 5px;
+  border-bottom: 2px solid #00bcd4;
+  border-left: 2px solid #00bcd4;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.contents__select {
+  position: relative;
+  background-color: #fff;
+}
+
+.contents__select:before {
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: "";
+}
+
+.contents__select__item {
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 30px 5px 5px;
+  font-size: 14px;
+}
+
+.contents__btn {
+  padding: 5px;
+  border: 1px solid #00bcd4;
+  border-radius: 5px;
+  color: #00bcd4;
+  cursor: pointer;
+}
+
+.contents__btn:active {
+  background-color: #00bcd4;
+  color: #fff;
+}
 /* 回答はここに書いてね */
