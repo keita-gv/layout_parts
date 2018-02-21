@@ -4,7 +4,7 @@
 
 .contents {
   width: 100%;
-  border: 1px solid #ddd;
+  border: 1px solid #dedede;
   table-layout: fixed;
 }
 
@@ -19,14 +19,14 @@
 
 .contents td {
   padding: 10px;
-  border-left: 1px solid #ddd;
+  border-left: 1px solid #dedede;
   line-height: 22px;
   text-align: center;
   vertical-align: middle;
 }
 
-.contents > thead th:not(:first-child) { border-left: 1px solid #ddd; }
-.contents > tbody > tr { border-top: 1px solid #ddd; }
+.contents > thead th:not(:first-child) { border-left: 1px solid #dedede; }
+.contents > tbody > tr { border-top: 1px solid #dedede; }
 .contents > tbody > tr:nth-child(even) { background-color: #ecf1f2; }
 .contents > tbody > tr:last-child { border-top: 2px dashed #000; }
 
