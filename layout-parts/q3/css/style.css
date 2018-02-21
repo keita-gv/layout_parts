@@ -4,13 +4,13 @@
 
 .contents {
   width: 100%;
-  border: 1px solid #dedede;
+  border: 1px solid #ddd;
   table-layout: fixed;
 }
 
 .contents th {
   padding: 10px;
-  background-color: #2244aa;
+  background-color: #24a;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
@@ -19,15 +19,15 @@
 
 .contents td {
   padding: 10px;
-  border-left: 1px solid #dedede;
+  border-left: 1px solid #ddd;
   line-height: 22px;
   text-align: center;
   vertical-align: middle;
 }
 
-.contents > thead th:not(:first-child) { border-left: 1px solid #dedede; }
-.contents > tbody > tr { border-top: 1px solid #dedede; }
-.contents > tbody > tr:nth-child(even) { background-color: #ECF1F2; }
+.contents > thead th:not(:first-child) { border-left: 1px solid #ddd; }
+.contents > tbody > tr { border-top: 1px solid #ddd; }
+.contents > tbody > tr:nth-child(even) { background-color: #ecf1f2; }
 .contents > tbody > tr:last-child { border-top: 2px dashed #000; }
 
 /* 回答はここに書いてね */

@@ -9,14 +9,14 @@
 .contents_textalign_in {
   display: inline-block;
   width: 90px;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 10px;
   background-color: #e6f2ff
 }
 
 .contents__margin {
   margin: 0 auto;
   width: 90px;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 10px;
   background-color: #e6f2ff;
   text-align: center;
 }

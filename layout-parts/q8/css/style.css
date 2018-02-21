@@ -16,29 +16,29 @@
   text-align: center;
 }
 
-.contents__box.is-1 {
+.contents__box.darksalmon {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.contents__box.is-2 {
+.contents__box.violet {
   background-color: #e0abd9;
 }
 
-.contents__box.is-3 {
+.contents__box.lightblue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.contents__box.is-4 {
+.contents__box.gold {
   background-color: #e5d32e;
 }
 
-.contents__box.is-5 {
+.contents__box.khaki {
   background-color: #e4e67c;
 }
 
-.contents__box.is-6 {
+.contents__box.lightgreen {
   width: 500px;
   background-color: #8fdcad;
 }

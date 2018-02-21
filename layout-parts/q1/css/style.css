@@ -9,22 +9,26 @@
 
 .box1 {
   width: 900px;
-  margin: 0 auto;
-  background-color: #eff3f4;
+  background-color: #eff;
+  padding: 20px;
+}
+
+.blue_box:not(:first-child) {
+  margin-left: 20px;
 }
 
 .blue_box {
   float: left;
   width: 230px;
-  padding: 20px 20px 20px 20px;
-  background-color: #3274ae;
-  margin: 20px 0px 20px 20px;
+  background-color: #37a;
+  padding: 20px;
 }
 
 .gray_box {
   padding: 20px;
-  border: 10px solid #022336;
-  background-color: #eaf4ff;
+  border: 10px solid #023;
+  background-color: #eff;
 }
+
 
 /* 回答はここに書いてね */
