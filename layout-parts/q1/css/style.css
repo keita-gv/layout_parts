@@ -8,8 +8,9 @@
 }
 
 .box1 {
+  margin: 0 auto;
   width: 900px;
-  background-color: #eff;
+  background-color: #eff3f4;
   padding: 20px;
 }
 
@@ -20,14 +21,14 @@
 .blue_box {
   float: left;
   width: 230px;
-  background-color: #37a;
+  background-color: #3274ae;
   padding: 20px;
 }
 
 .gray_box {
   padding: 20px;
-  border: 10px solid #023;
-  background-color: #eff;
+  border: 10px solid #022336;
+  background-color: #eaf4ff;
 }
 
 
